@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.6.2">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="5" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="1" altunitdist="mil" altunit="mil"/>
+<layers>
+<layer number="1" name="Top" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="32" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="33" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="10" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="11" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="12" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="13" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="14" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="18" fill="10" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="19" fill="10" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="20" fill="11" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="21" fill="11" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="24" fill="8" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="25" fill="8" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="26" fill="7" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="27" fill="7" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="28" fill="7" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="34" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="16" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="17" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="40" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="41" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="42" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="43" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="44" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="45" fill="1" visible="yes" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="no"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="no" active="no"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="no" active="no"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="no" active="no"/>
+<layer number="97" name="Info" color="7" fill="1" visible="no" active="no"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="no" active="no"/>
+</layers>
+<library>
+<packages>
+<package name="2PIN_P2.54MM">
+<pad name="1" x="-1.27" y="0" drill="1" diameter="1.7" shape="square"/>
+<pad name="2" x="1.27" y="0" drill="1" diameter="1.7"/>
+<wire x1="-2.54" y1="-1.27" x2="-2.54" y2="1.27" width="0.1524" layer="51"/>
+<wire x1="-2.54" y1="1.27" x2="2.54" y2="1.27" width="0.1524" layer="51"/>
+<wire x1="2.54" y1="1.27" x2="2.54" y2="-1.27" width="0.1524" layer="51"/>
+<wire x1="2.54" y1="-1.27" x2="-2.54" y2="-1.27" width="0.1524" layer="51"/>
+<text x="0" y="3.175" size="1.778" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="-3.175" size="1.778" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-2.794" y1="-1.524" x2="-2.794" y2="1.524" width="0.1524" layer="21"/>
+<wire x1="-2.794" y1="1.524" x2="2.794" y2="1.524" width="0.1524" layer="21"/>
+<wire x1="2.794" y1="1.524" x2="2.794" y2="-1.524" width="0.1524" layer="21"/>
+<wire x1="2.794" y1="-1.524" x2="-2.794" y2="-1.524" width="0.1524" layer="21"/>
+<wire x1="-3.048" y1="0" x2="-3.048" y2="-1.778" width="0.1524" layer="21"/>
+<wire x1="-3.048" y1="-1.778" x2="-1.27" y2="-1.778" width="0.1524" layer="21"/>
+</package>
+<package name="3PIN_P2.54MM">
+<pad name="1" x="-2.54" y="0" drill="1" diameter="1.7" shape="square"/>
+<pad name="2" x="0" y="0" drill="1" diameter="1.7"/>
+<pad name="3" x="2.54" y="0" drill="1" diameter="1.7"/>
+<wire x1="-3.81" y1="-1.27" x2="-3.81" y2="1.27" width="0.1524" layer="51"/>
+<wire x1="-3.81" y1="1.27" x2="3.81" y2="1.27" width="0.1524" layer="51"/>
+<wire x1="3.81" y1="1.27" x2="3.81" y2="-1.27" width="0.1524" layer="51"/>
+<wire x1="3.81" y1="-1.27" x2="-3.81" y2="-1.27" width="0.1524" layer="51"/>
+<text x="0" y="3.175" size="1.778" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="-3.175" size="1.778" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-4.064" y1="-1.524" x2="-4.064" y2="1.524" width="0.1524" layer="21"/>
+<wire x1="-4.064" y1="1.524" x2="4.064" y2="1.524" width="0.1524" layer="21"/>
+<wire x1="4.064" y1="1.524" x2="4.064" y2="-1.524" width="0.1524" layer="21"/>
+<wire x1="4.064" y1="-1.524" x2="-4.064" y2="-1.524" width="0.1524" layer="21"/>
+<wire x1="-4.318" y1="0" x2="-4.318" y2="-1.778" width="0.1524" layer="21"/>
+<wire x1="-4.318" y1="-1.778" x2="-2.54" y2="-1.778" width="0.1524" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="JUMPER_2PIN">
+<pin name="1" x="-3.81" y="0" visible="off" length="short" direction="pas"/>
+<pin name="2" x="3.81" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<circle x="-1.27" y="0" radius="0.127" width="0.1524" layer="94"/>
+<circle x="1.27" y="0" radius="0.127" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="0.381" x2="1.27" y2="0.381" width="0.1524" layer="94" curve="-90"/>
+<text x="0" y="2.54" size="1.778" layer="95" align="center">&gt;NAME</text>
+<text x="0" y="-2.54" size="1.778" layer="96" align="center">&gt;VALUE</text>
+</symbol>
+<symbol name="JUMPER_3PIN">
+<pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas"/>
+<pin name="2" x="0" y="-2.54" visible="off" length="short" direction="pas" rot="R90"/>
+<pin name="3" x="5.08" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<circle x="-2.54" y="0" radius="0.127" width="0.1524" layer="94"/>
+<circle x="0" y="0" radius="0.127" width="0.1524" layer="94"/>
+<circle x="2.54" y="0" radius="0.127" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="0.381" x2="0" y2="0.381" width="0.1524" layer="94" curve="-90"/>
+<text x="0" y="2.54" size="1.778" layer="95" align="center">&gt;NAME</text>
+<text x="0" y="-5.08" size="1.778" layer="96" align="center">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="JUMPER_2PIN_P2.54MM" prefix="JP" uservalue="yes">
+<gates>
+<gate name="_1" symbol="JUMPER_2PIN" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="2PIN_P2.54MM">
+<connects>
+<connect gate="_1" pin="1" pad="1"/>
+<connect gate="_1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="JUMPER_3PIN_P2.54MM" prefix="JP" uservalue="yes">
+<gates>
+<gate name="_1" symbol="JUMPER_3PIN" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="3PIN_P2.54MM">
+<connects>
+<connect gate="_1" pin="1" pad="1"/>
+<connect gate="_1" pin="2" pad="2"/>
+<connect gate="_1" pin="3" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>

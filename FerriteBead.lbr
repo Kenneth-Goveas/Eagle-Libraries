@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.6.2">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<layers>
+<layer number="91" name="Nets" color="40" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="41" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="42" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="43" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="44" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="45" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="32" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="33" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="10" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="11" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="12" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="13" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="14" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="18" fill="10" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="19" fill="10" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="20" fill="11" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="21" fill="11" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="24" fill="8" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="25" fill="8" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="26" fill="7" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="27" fill="7" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="28" fill="7" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="34" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="16" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="17" fill="1" visible="yes" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="no"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="no" active="no"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="no" active="no"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="no" active="no"/>
+<layer number="97" name="Info" color="7" fill="1" visible="no" active="no"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="no" active="no"/>
+</layers>
+<library>
+<packages>
+<package name="0201">
+<wire x1="-0.3" y1="0.15" x2="0.3" y2="0.15" width="0.1524" layer="51"/>
+<wire x1="0.3" y1="0.15" x2="0.3" y2="-0.15" width="0.1524" layer="51"/>
+<wire x1="0.3" y1="-0.15" x2="-0.3" y2="-0.15" width="0.1524" layer="51"/>
+<wire x1="-0.3" y1="-0.15" x2="-0.3" y2="0.15" width="0.1524" layer="51"/>
+<smd name="1" x="-0.3" y="0" dx="0.4" dy="0.4" layer="1" roundness="15"/>
+<smd name="2" x="0.3" y="0" dx="0.4" dy="0.4" layer="1" roundness="15"/>
+<wire x1="-0.381" y1="0.508" x2="0.381" y2="0.508" width="0.1524" layer="21"/>
+<wire x1="-0.381" y1="-0.508" x2="0.381" y2="-0.508" width="0.1524" layer="21"/>
+<text x="0" y="1.905" size="1.778" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="-1.905" size="1.778" layer="27" align="center">&gt;VALUE</text>
+</package>
+<package name="0402">
+<wire x1="-0.5" y1="0.25" x2="0.5" y2="0.25" width="0.1524" layer="51"/>
+<wire x1="0.5" y1="0.25" x2="0.5" y2="-0.25" width="0.1524" layer="51"/>
+<wire x1="0.5" y1="-0.25" x2="-0.5" y2="-0.25" width="0.1524" layer="51"/>
+<wire x1="-0.5" y1="-0.25" x2="-0.5" y2="0.25" width="0.1524" layer="51"/>
+<smd name="1" x="-0.5" y="0" dx="0.6" dy="0.6" layer="1" roundness="15"/>
+<smd name="2" x="0.5" y="0" dx="0.6" dy="0.6" layer="1" roundness="15"/>
+<wire x1="-0.508" y1="0.635" x2="0.508" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-0.508" y1="-0.635" x2="0.508" y2="-0.635" width="0.1524" layer="21"/>
+<text x="0" y="1.905" size="1.778" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="-1.905" size="1.778" layer="27" align="center">&gt;VALUE</text>
+</package>
+<package name="0603">
+<wire x1="-0.8" y1="0.4" x2="0.8" y2="0.4" width="0.1524" layer="51"/>
+<wire x1="0.8" y1="0.4" x2="0.8" y2="-0.4" width="0.1524" layer="51"/>
+<wire x1="0.8" y1="-0.4" x2="-0.8" y2="-0.4" width="0.1524" layer="51"/>
+<wire x1="-0.8" y1="-0.4" x2="-0.8" y2="0.4" width="0.1524" layer="51"/>
+<smd name="1" x="-0.8" y="0" dx="0.9" dy="0.9" layer="1" roundness="15"/>
+<smd name="2" x="0.8" y="0" dx="0.9" dy="0.9" layer="1" roundness="15"/>
+<wire x1="-0.762" y1="0.762" x2="0.762" y2="0.762" width="0.1524" layer="21"/>
+<wire x1="-0.762" y1="-0.762" x2="0.762" y2="-0.762" width="0.1524" layer="21"/>
+<text x="0" y="1.905" size="1.778" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="-1.905" size="1.778" layer="27" align="center">&gt;VALUE</text>
+</package>
+<package name="0805">
+<wire x1="-1" y1="0.625" x2="1" y2="0.625" width="0.1524" layer="51"/>
+<wire x1="1" y1="0.625" x2="1" y2="-0.625" width="0.1524" layer="51"/>
+<wire x1="1" y1="-0.625" x2="-1" y2="-0.625" width="0.1524" layer="51"/>
+<wire x1="-1" y1="-0.625" x2="-1" y2="0.625" width="0.1524" layer="51"/>
+<smd name="1" x="-1" y="0" dx="1.35" dy="1.35" layer="1" roundness="15"/>
+<smd name="2" x="1" y="0" dx="1.35" dy="1.35" layer="1" roundness="15"/>
+<wire x1="-1.016" y1="1.016" x2="1.016" y2="1.016" width="0.1524" layer="21"/>
+<wire x1="-1.016" y1="-1.016" x2="1.016" y2="-1.016" width="0.1524" layer="21"/>
+<text x="0" y="2.159" size="1.778" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="-2.159" size="1.778" layer="27" align="center">&gt;VALUE</text>
+</package>
+<package name="1206">
+<wire x1="-1.6" y1="0.8" x2="1.6" y2="0.8" width="0.1524" layer="51"/>
+<wire x1="1.6" y1="0.8" x2="1.6" y2="-0.8" width="0.1524" layer="51"/>
+<wire x1="1.6" y1="-0.8" x2="-1.6" y2="-0.8" width="0.1524" layer="51"/>
+<wire x1="-1.6" y1="-0.8" x2="-1.6" y2="0.8" width="0.1524" layer="51"/>
+<smd name="1" x="-1.6" y="0" dx="1.7" dy="1.7" layer="1" roundness="15"/>
+<smd name="2" x="1.6" y="0" dx="1.7" dy="1.7" layer="1" roundness="15"/>
+<wire x1="-1.651" y1="1.143" x2="1.651" y2="1.143" width="0.1524" layer="21"/>
+<wire x1="-1.651" y1="-1.143" x2="1.651" y2="-1.143" width="0.1524" layer="21"/>
+<text x="0" y="2.54" size="1.778" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="-2.54" size="1.778" layer="27" align="center">&gt;VALUE</text>
+</package>
+<package name="1812">
+<wire x1="-2.25" y1="1.6" x2="2.25" y2="1.6" width="0.1524" layer="51"/>
+<wire x1="2.25" y1="1.6" x2="2.25" y2="-1.6" width="0.1524" layer="51"/>
+<wire x1="2.25" y1="-1.6" x2="-2.25" y2="-1.6" width="0.1524" layer="51"/>
+<wire x1="-2.25" y1="-1.6" x2="-2.25" y2="1.6" width="0.1524" layer="51"/>
+<smd name="1" x="-2.25" y="0" dx="3.3" dy="3.3" layer="1" roundness="15"/>
+<smd name="2" x="2.25" y="0" dx="3.3" dy="3.3" layer="1" roundness="15"/>
+<wire x1="-2.286" y1="1.905" x2="2.286" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="-2.286" y1="-1.905" x2="2.286" y2="-1.905" width="0.1524" layer="21"/>
+<text x="0" y="3.175" size="1.778" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="-3.175" size="1.778" layer="27" align="center">&gt;VALUE</text>
+</package>
+</packages>
+<symbols>
+<symbol name="FERRITE-BEAD">
+<pin name="1" x="-3.81" y="0" visible="off" length="short" direction="pas"/>
+<pin name="2" x="3.81" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<text x="0" y="3.81" size="1.778" layer="95" align="center">&gt;NAME</text>
+<text x="0" y="-3.81" size="1.778" layer="96" align="center">&gt;VALUE</text>
+<wire x1="1.524" y1="0.508" x2="1.016" y2="0" width="0.1524" layer="94"/>
+<wire x1="1.016" y1="0" x2="-0.508" y2="-1.524" width="0.1524" layer="94"/>
+<wire x1="-0.508" y1="-1.524" x2="-1.524" y2="-0.508" width="0.1524" layer="94"/>
+<wire x1="-1.524" y1="-0.508" x2="-1.016" y2="0" width="0.1524" layer="94"/>
+<wire x1="-1.016" y1="0" x2="0.508" y2="1.524" width="0.1524" layer="94"/>
+<wire x1="0.508" y1="1.524" x2="1.524" y2="0.508" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="0" x2="-1.016" y2="0" width="0.1524" layer="94"/>
+<wire x1="1.016" y1="0" x2="1.27" y2="0" width="0.1524" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="FERRITE-BEAD_0201" prefix="F" uservalue="yes">
+<gates>
+<gate name="_1" symbol="FERRITE-BEAD" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0201">
+<connects>
+<connect gate="_1" pin="1" pad="1"/>
+<connect gate="_1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="FERRITE-BEAD_0402" prefix="F" uservalue="yes">
+<gates>
+<gate name="_1" symbol="FERRITE-BEAD" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0402">
+<connects>
+<connect gate="_1" pin="1" pad="1"/>
+<connect gate="_1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="FERRITE-BEAD_0603" prefix="F" uservalue="yes">
+<gates>
+<gate name="_1" symbol="FERRITE-BEAD" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0603">
+<connects>
+<connect gate="_1" pin="1" pad="1"/>
+<connect gate="_1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="FERRITE-BEAD_0805" prefix="F" uservalue="yes">
+<gates>
+<gate name="_1" symbol="FERRITE-BEAD" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0805">
+<connects>
+<connect gate="_1" pin="1" pad="1"/>
+<connect gate="_1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="FERRITE-BEAD_1206" prefix="F" uservalue="yes">
+<gates>
+<gate name="_1" symbol="FERRITE-BEAD" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="1206">
+<connects>
+<connect gate="_1" pin="1" pad="1"/>
+<connect gate="_1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="FERRITE-BEAD_1812" prefix="F" uservalue="yes">
+<gates>
+<gate name="_1" symbol="FERRITE-BEAD" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="1812">
+<connects>
+<connect gate="_1" pin="1" pad="1"/>
+<connect gate="_1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
