@@ -70,8 +70,8 @@
 <wire x1="0.35" y1="0.55" x2="0.35" y2="-0.55" width="0.1524" layer="51"/>
 <wire x1="0.35" y1="-0.55" x2="-0.35" y2="-0.55" width="0.1524" layer="51"/>
 <wire x1="-0.35" y1="-0.55" x2="-0.35" y2="0.55" width="0.1524" layer="51"/>
-<text x="0" y="2.54" size="1.778" layer="25" align="center">&gt;NAME</text>
-<text x="0" y="-2.54" size="1.778" layer="27" align="center">&gt;VALUE</text>
+<text x="0" y="2.54" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="-2.54" size="1.27" layer="27" align="center">&gt;VALUE</text>
 <wire x1="-0.635" y1="0.762" x2="0.635" y2="0.762" width="0.1524" layer="21"/>
 <wire x1="0.635" y1="0.762" x2="0.635" y2="-0.762" width="0.1524" layer="21"/>
 <wire x1="0.635" y1="-0.762" x2="-0.635" y2="-0.762" width="0.1524" layer="21"/>

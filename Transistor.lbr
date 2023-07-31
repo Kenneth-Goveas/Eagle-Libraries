@@ -72,8 +72,8 @@
 <wire x1="0.762" y1="0.889" x2="1.651" y2="0.889" width="0.1524" layer="21"/>
 <wire x1="1.651" y1="0.889" x2="1.651" y2="-0.889" width="0.1524" layer="21"/>
 <wire x1="-0.254" y1="-0.889" x2="0.254" y2="-0.889" width="0.1524" layer="21"/>
-<text x="0" y="2.54" size="1.778" layer="25" align="center">&gt;NAME</text>
-<text x="0" y="-2.54" size="1.778" layer="27" align="center">&gt;VALUE</text>
+<text x="0" y="2.54" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="-2.54" size="1.27" layer="27" align="center">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>

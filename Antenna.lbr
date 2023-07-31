@@ -74,8 +74,8 @@
 <wire x1="-1.524" y1="-1.524" x2="-0.762" y2="-1.524" width="0.1524" layer="21"/>
 <wire x1="0.762" y1="-1.524" x2="1.524" y2="-1.524" width="0.1524" layer="21"/>
 <wire x1="1.524" y1="-1.524" x2="1.524" y2="-1.397" width="0.1524" layer="21"/>
-<text x="0" y="3.175" size="1.778" layer="25" align="center">&gt;NAME</text>
-<text x="0" y="-3.175" size="1.778" layer="27" align="center">&gt;VALUE</text>
+<text x="0" y="3.175" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="-3.175" size="1.27" layer="27" align="center">&gt;VALUE</text>
 </package>
 <package name="PAD_SMD_RECT_2.00X1.25MM">
 <smd name="1" x="0" y="0" dx="2" dy="1.25" layer="1" roundness="15"/>
@@ -83,8 +83,8 @@
 <wire x1="1.27" y1="0.889" x2="1.27" y2="-0.889" width="0.1524" layer="51"/>
 <wire x1="1.27" y1="-0.889" x2="-1.27" y2="-0.889" width="0.1524" layer="51"/>
 <wire x1="-1.27" y1="-0.889" x2="-1.27" y2="0.889" width="0.1524" layer="51"/>
-<text x="0" y="1.905" size="1.778" layer="25" align="center">&gt;NAME</text>
-<text x="0" y="-1.905" size="1.778" layer="27" align="center">&gt;VALUE</text>
+<text x="0" y="1.905" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="-1.905" size="1.27" layer="27" align="center">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>

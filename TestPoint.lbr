@@ -62,8 +62,8 @@
 <package name="PAD_SMD_CIRC_2.00MM">
 <smd name="1" x="0" y="0" dx="2" dy="2" layer="1" roundness="100" cream="no"/>
 <circle x="0" y="0" radius="1.27" width="0.1524" layer="51"/>
-<text x="0" y="2.54" size="1.778" layer="25" align="center">&gt;NAME</text>
-<text x="0" y="-2.54" size="1.778" layer="27" align="center">&gt;VALUE</text>
+<text x="0" y="2.54" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="-2.54" size="1.27" layer="27" align="center">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>

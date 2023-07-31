@@ -68,8 +68,8 @@
 <smd name="2" x="0.3" y="0" dx="0.4" dy="0.4" layer="1" roundness="15"/>
 <wire x1="-0.381" y1="0.508" x2="0.762" y2="0.508" width="0.1524" layer="21"/>
 <wire x1="-0.381" y1="-0.508" x2="0.762" y2="-0.508" width="0.1524" layer="21"/>
-<text x="0" y="1.905" size="1.778" layer="25" align="center">&gt;NAME</text>
-<text x="0" y="-1.905" size="1.778" layer="27" align="center">&gt;VALUE</text>
+<text x="0" y="1.905" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="-1.905" size="1.27" layer="27" align="center">&gt;VALUE</text>
 <wire x1="0.762" y1="0.508" x2="0.762" y2="-0.508" width="0.1524" layer="21"/>
 </package>
 <package name="0402">
@@ -81,8 +81,8 @@
 <smd name="2" x="0.5" y="0" dx="0.6" dy="0.6" layer="1" roundness="15"/>
 <wire x1="-0.508" y1="0.635" x2="1.143" y2="0.635" width="0.1524" layer="21"/>
 <wire x1="-0.508" y1="-0.635" x2="1.143" y2="-0.635" width="0.1524" layer="21"/>
-<text x="0" y="1.905" size="1.778" layer="25" align="center">&gt;NAME</text>
-<text x="0" y="-1.905" size="1.778" layer="27" align="center">&gt;VALUE</text>
+<text x="0" y="1.905" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="-1.905" size="1.27" layer="27" align="center">&gt;VALUE</text>
 <wire x1="1.143" y1="0.635" x2="1.143" y2="-0.635" width="0.1524" layer="21"/>
 </package>
 <package name="0603">
@@ -94,8 +94,8 @@
 <smd name="2" x="0.8" y="0" dx="0.9" dy="0.9" layer="1" roundness="15"/>
 <wire x1="-0.762" y1="0.762" x2="1.524" y2="0.762" width="0.1524" layer="21"/>
 <wire x1="-0.762" y1="-0.762" x2="1.524" y2="-0.762" width="0.1524" layer="21"/>
-<text x="0" y="1.905" size="1.778" layer="25" align="center">&gt;NAME</text>
-<text x="0" y="-1.905" size="1.778" layer="27" align="center">&gt;VALUE</text>
+<text x="0" y="1.905" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="-1.905" size="1.27" layer="27" align="center">&gt;VALUE</text>
 <wire x1="1.524" y1="0.762" x2="1.524" y2="-0.762" width="0.1524" layer="21"/>
 </package>
 <package name="0805">
@@ -107,8 +107,8 @@
 <smd name="2" x="1" y="0" dx="1.35" dy="1.35" layer="1" roundness="15"/>
 <wire x1="-1.016" y1="1.016" x2="2.032" y2="1.016" width="0.1524" layer="21"/>
 <wire x1="-1.016" y1="-1.016" x2="2.032" y2="-1.016" width="0.1524" layer="21"/>
-<text x="0" y="2.159" size="1.778" layer="25" align="center">&gt;NAME</text>
-<text x="0" y="-2.159" size="1.778" layer="27" align="center">&gt;VALUE</text>
+<text x="0" y="2.159" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="-2.159" size="1.27" layer="27" align="center">&gt;VALUE</text>
 <wire x1="2.032" y1="1.016" x2="2.032" y2="-1.016" width="0.1524" layer="21"/>
 </package>
 <package name="1206">
@@ -120,8 +120,8 @@
 <smd name="2" x="1.6" y="0" dx="1.7" dy="1.7" layer="1" roundness="15"/>
 <wire x1="-1.651" y1="1.143" x2="2.794" y2="1.143" width="0.1524" layer="21"/>
 <wire x1="-1.651" y1="-1.143" x2="2.794" y2="-1.143" width="0.1524" layer="21"/>
-<text x="0" y="2.54" size="1.778" layer="25" align="center">&gt;NAME</text>
-<text x="0" y="-2.54" size="1.778" layer="27" align="center">&gt;VALUE</text>
+<text x="0" y="2.54" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="-2.54" size="1.27" layer="27" align="center">&gt;VALUE</text>
 <wire x1="2.794" y1="1.143" x2="2.794" y2="-1.143" width="0.1524" layer="21"/>
 </package>
 <package name="1812">
@@ -133,8 +133,8 @@
 <smd name="2" x="2.25" y="0" dx="3.3" dy="3.3" layer="1" roundness="15"/>
 <wire x1="-2.286" y1="1.905" x2="4.191" y2="1.905" width="0.1524" layer="21"/>
 <wire x1="-2.286" y1="-1.905" x2="4.191" y2="-1.905" width="0.1524" layer="21"/>
-<text x="0" y="3.175" size="1.778" layer="25" align="center">&gt;NAME</text>
-<text x="0" y="-3.175" size="1.778" layer="27" align="center">&gt;VALUE</text>
+<text x="0" y="3.175" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="-3.175" size="1.27" layer="27" align="center">&gt;VALUE</text>
 <wire x1="4.191" y1="1.905" x2="4.191" y2="-1.905" width="0.1524" layer="21"/>
 </package>
 </packages>

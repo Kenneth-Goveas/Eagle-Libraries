@@ -231,8 +231,8 @@
 <wire x1="8.509" y1="5.715" x2="-8.509" y2="5.715" width="0.1524" layer="21"/>
 <wire x1="-7.62" y1="5.969" x2="-8.763" y2="5.969" width="0.1524" layer="21"/>
 <wire x1="-8.763" y1="5.969" x2="-8.763" y2="4.826" width="0.1524" layer="21"/>
-<text x="0" y="6.985" size="1.778" layer="25" align="center">&gt;NAME</text>
-<text x="0" y="-6.985" size="1.778" layer="27" align="center">&gt;VALUE</text>
+<text x="0" y="6.985" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="-6.985" size="1.27" layer="27" align="center">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>

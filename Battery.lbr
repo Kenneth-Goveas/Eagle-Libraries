@@ -71,8 +71,8 @@
 <wire x1="-10.5" y1="6" x2="-10.5" y2="5" width="0.1524" layer="21"/>
 <wire x1="-11" y1="5.5" x2="-10" y2="5.5" width="0.1524" layer="21"/>
 <wire x1="10" y1="5.5" x2="11" y2="5.5" width="0.1524" layer="21"/>
-<text x="0" y="5.715" size="1.778" layer="25" align="center">&gt;NAME</text>
-<text x="0" y="-5.715" size="1.778" layer="27" align="center">&gt;VALUE</text>
+<text x="0" y="5.715" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="-5.715" size="1.27" layer="27" align="center">&gt;VALUE</text>
 </package>
 <package name="ANYSOLAR_KXOB25-12X1F">
 <smd name="1" x="-10" y="0" dx="3" dy="8" layer="1" roundness="15"/>
@@ -86,8 +86,8 @@
 <wire x1="-10" y1="5.5" x2="-10" y2="4.5" width="0.1524" layer="21"/>
 <wire x1="-10.5" y1="5" x2="-9.5" y2="5" width="0.1524" layer="21"/>
 <wire x1="9.5" y1="5" x2="10.5" y2="5" width="0.1524" layer="21"/>
-<text x="0" y="5.08" size="1.778" layer="25" align="center">&gt;NAME</text>
-<text x="0" y="-5.08" size="1.778" layer="27" align="center">&gt;VALUE</text>
+<text x="0" y="5.08" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="-5.08" size="1.27" layer="27" align="center">&gt;VALUE</text>
 </package>
 <package name="PADS_THT_OVAL_3.50X1.50MM_D2.75X0.75MM_P6.50MM">
 <pad name="1_1" x="-4.25" y="0" drill="0.75" diameter="1.5"/>
@@ -115,8 +115,8 @@
 <wire x1="-3.25" y1="2.25" x2="-3.25" y2="1.25" width="0.1524" layer="21"/>
 <wire x1="-3.75" y1="1.75" x2="-2.75" y2="1.75" width="0.1524" layer="21"/>
 <wire x1="2.75" y1="1.75" x2="3.75" y2="1.75" width="0.1524" layer="21"/>
-<text x="0" y="3.81" size="1.778" layer="25" align="center">&gt;NAME</text>
-<text x="0" y="-3.81" size="1.778" layer="27" align="center">&gt;VALUE</text>
+<text x="0" y="3.81" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="-3.81" size="1.27" layer="27" align="center">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>

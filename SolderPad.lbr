@@ -65,8 +65,8 @@
 <wire x1="1.27" y1="0.889" x2="1.27" y2="-0.889" width="0.1524" layer="51"/>
 <wire x1="1.27" y1="-0.889" x2="-1.27" y2="-0.889" width="0.1524" layer="51"/>
 <wire x1="-1.27" y1="-0.889" x2="-1.27" y2="0.889" width="0.1524" layer="51"/>
-<text x="0" y="1.905" size="1.778" layer="25" align="center">&gt;NAME</text>
-<text x="0" y="-1.905" size="1.778" layer="27" align="center">&gt;VALUE</text>
+<text x="0" y="1.905" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="-1.905" size="1.27" layer="27" align="center">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>

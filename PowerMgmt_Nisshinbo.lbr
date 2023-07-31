@@ -8,13 +8,6 @@
 </settings>
 <grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
-<layer number="91" name="Nets" color="40" fill="1" visible="yes" active="yes"/>
-<layer number="92" name="Busses" color="41" fill="1" visible="yes" active="yes"/>
-<layer number="93" name="Pins" color="42" fill="1" visible="yes" active="yes"/>
-<layer number="94" name="Symbols" color="43" fill="1" visible="yes" active="yes"/>
-<layer number="95" name="Names" color="44" fill="1" visible="yes" active="yes"/>
-<layer number="96" name="Values" color="45" fill="1" visible="yes" active="yes"/>
-<layer number="97" name="Info" color="46" fill="1" visible="yes" active="yes"/>
 <layer number="1" name="Top" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="3" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="4" fill="1" visible="yes" active="yes"/>
@@ -44,6 +37,13 @@
 <layer number="47" name="Measures" color="34" fill="1" visible="yes" active="yes"/>
 <layer number="51" name="tDocu" color="16" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="17" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="40" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="41" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="42" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="43" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="44" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="45" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="46" fill="1" visible="yes" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="no"/>
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
@@ -76,8 +76,8 @@
 <wire x1="1.651" y1="1.143" x2="1.778" y2="1.143" width="0.1524" layer="21"/>
 <wire x1="1.778" y1="1.143" x2="1.778" y2="-1.143" width="0.1524" layer="21"/>
 <wire x1="1.778" y1="-1.143" x2="1.651" y2="-1.143" width="0.1524" layer="21"/>
-<text x="0" y="3.175" size="1.778" layer="25" align="center">&gt;NAME</text>
-<text x="0" y="-3.175" size="1.778" layer="27" align="center">&gt;VALUE</text>
+<text x="0" y="3.175" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="-3.175" size="1.27" layer="27" align="center">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
